@@ -85,7 +85,7 @@ body {
   }
   @media(max-width: 500px) {
  body{background: #f89b7f;}
-.title{font-size: 2rem;}
-.form, .tasks{margin: 30px 50px 20px 40px;}
+.title{font-size: 3rem;}
+.form, .tasks{margin: 50px 70px 40px 60px;}
 .add{background-color: #fc997b;}
  }
