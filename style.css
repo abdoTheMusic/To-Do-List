@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2709c;  
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+    background: linear-gradient(to right, #ff9472, #f2709c); 
+    
+
+  }
+  .container {
+    width: 500px;
+    margin: 20px auto;
+    
+  }
+  .title{
+   font-size: 5rem;
+   color: white;
+   text-align: center;
+  }
+
+  .form {
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.63);
+  }
+  .input {
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    flex: 1;
+  }
+  .input:focus {
+    outline: none;
+  }
+  .add {
+    border: none;
+    background-color: #f2709c;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .tasks {
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.63);
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #f2709c;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
