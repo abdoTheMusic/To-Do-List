@@ -83,3 +83,9 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
+  @media(max-width: 500px) {
+ body{background: #f89b7f;}
+.title{font-size: 3rem;}
+.form, .tasks{margin: 20px 30px 20px 10px;}
+.add{background-color: #fc997b;}
+ }
