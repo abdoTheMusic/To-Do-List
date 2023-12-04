@@ -86,6 +86,6 @@ body {
   @media(max-width: 500px) {
  body{background: #f89b7f;}
 .title{font-size: 3rem;}
-.form, .tasks{margin: 50px 70px 40px 60px;}
+.form, .tasks{margin: 80px 100px 70px 90px;}
 .add{background-color: #fc997b;}
  }
